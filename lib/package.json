@@ -1,0 +1,22 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "Buggy Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Pinell",
+  "license": "CC Attribution",
+  "devDependencies": {
+    "browserify": "^16.0.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "matchdep": "^2.0.0"
+  }
+}
