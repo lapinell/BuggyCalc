@@ -3,3 +3,4 @@ dist
 lib/package-lock.json
 lib/node_modules
 lib/.sass-cache
+lib/design
