@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-</head>
-<body>
-    <div>
-        <header>
+</head> 
+<body class="container-fluid">
+    <div class="container">
+        <header class="row">
             <h1>The Buggy Calculator</h1>
         </header>
-        <main>
-            <article>
+        <main class="row">
+            <article class="col-6">
                 <h2>A Debugging Tutorials</h2>
                 <p>Welcome! There is something seriously wrong with my calculator. Can you help me fix it?</p>
                 <p>Here are the problems I am having:</p>
@@ -27,68 +28,69 @@
                 </ol>
                 <p>Thanks for your help!</p>
             </article>
-            <section>
-                <div class="container">
-                    <div id="calculator">
-                        <header>
-                            <input type="text" placeholer="0">
-                        </header>
-                        <main>
-                            <div class="row-4">
-                                <button>OFF</button>
-                                <button>%</button>    
-                                <button>CE</button>
-                                <button>C</button>
-                            </div>
-                            <div class="row-4">
-                                <button>R-CM</button>
-                                <button>M-</button>    
-                                <button>M+</button>
-                                <button>/</button>
-                            </div>
-                            <div class="row-4">
-                                <button>7</button>
-                                <button>8</button>    
-                                <button>9</button>
-                                <button>X</button>
-                            </div>
-                            <div class="row-4">
-                                <button>4</button>
-                                <button>5</button>    
-                                <button>6</button>
-                                <button>-</button>
-                            </div>
-                            <div class="row-3">
-                                <button>1</button>
-                                <button>2</button>    
-                                <button>3</button>
-                            </div>
-                            <div class="row-3">
-                                <button>0</button>
-                                <button>.</button>    
-                                <button>=</button>
-                            </div>
-                            <div>
-                                <button>+</button>
-                            </div>
-                        </main>
-                    </div>
+            <section class="col-4">
+                <div id="calculator">   
+                    <header>
+                        <input type="text" placeholer="0">
+                    </header>
+                    <main>
+                        <div class="row-4">
+                            <button>OFF</button>
+                            <button>%</button>    
+                            <button>CE</button>
+                            <button>C</button>
+                        </div>
+                        <div class="row-4">
+                            <button>R-CM</button>
+                            <button>M-</button>    
+                            <button>M+</button>
+                            <button>/</button>
+                        </div>
+                        <div class="row-4">
+                            <button>7</button>
+                            <button>8</button>    
+                            <button>9</button>
+                            <button>X</button>
+                        </div>
+                        <div class="row-4">
+                            <button>4</button>
+                            <button>5</button>    
+                            <button>6</button>
+                            <button>-</button>
+                        </div>
+                        <div class="row-3">
+                            <button>1</button>
+                            <button>2</button>    
+                            <button>3</button>
+                        </div>
+                        <div class="row-3">
+                            <button>0</button>
+                            <button>.</button>    
+                            <button>=</button>
+                        </div>
+                        <div>
+                            <button>+</button>
+                        </div>
+                    </main>
                 </div>
-                <div class="container">
-                    <div id="tape">
-                        <p class="tapeText">12 + 34</p>
-                        <p class="tapeText">= 12</p>
-                        <p class="tapeText">3 + 9</p>
-                        <p class="tapeText">= 3</p>
-                        <p class="tapeText"> 75 / 25</p>
-                    </div>
+            </section>
+            <section class="col-2">
+                <div id="tape">
+                    <p class="tapeText">12 + 34</p>
+                    <p class="tapeText">= 12</p>
+                    <p class="tapeText">3 + 9</p>
+                    <p class="tapeText">= 3</p>
+                    <p class="tapeText"> 75 / 25</p>
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="row">
             CC Atribution Written, code and copy, by Laura Pinell - 2018.
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="dist/app.js"></script>
 </body>
 </html>
